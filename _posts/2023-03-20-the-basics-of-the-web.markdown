@@ -4,6 +4,8 @@ use_math: true
 title:  "Let's explore the basics of the web"
 date:   2023-03-20 05:26:59 +0100
 categories: technology webdev
+excerpt: "The web is a giant web, lol. I want to discuss from the basics the flow
+from the source, how data, bits move up to the tiny device you are carrying."
 ---
 
 Let's test some inline math $x$, $y$, $x_1$, $y_1$.
