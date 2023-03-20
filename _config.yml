@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: xpanvictor's paper
+title: xpanvictor
 email: xpanvictor@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I love to learn from the fields of STEM. Things I learn are usually fascinating and 
-  I'll like to share \'em. Make sure to pick something new from my posts, criticize and 
-  send feedbacks to my mail [xpanvictor@gmail.com](xpanvictor@gmail.com)
+  I'll like to share 'em. Make sure to pick something new from my posts, criticize and 
+  send feedbacks to my mail.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xpanvictor
@@ -33,6 +33,9 @@ github_username:  xpanvictor
 theme: minima
 plugins:
   - jekyll-feed
+    
+# Build settings
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
