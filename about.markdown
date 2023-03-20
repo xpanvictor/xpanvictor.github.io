@@ -39,7 +39,8 @@ little or no server is a technology I find fascinating.
 realizes how simple a computer can be. With this, I'm taking my time to understand fully
 and build my own operating system. This is a preliminary step for me as the final goal is
 to contribute to **Linux**.
-- ---
+
+---
 
 
 
