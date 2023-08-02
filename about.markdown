@@ -32,12 +32,14 @@ of our reasoning can always be questioned from a mathematical standpoint. How do
  
 ## What am I doing now?
 *Technology:* This is the field I'm currently putting my time. What I've been working on:
+- Arduino: Learning hardware using articles online and some youtube guides.
 - Learning rust: I enjoy the technology of rust and will become a rustacean soon.
 - WebRTC: How we can share our streams and data from a computer directly to another with
 little or no server is a technology I find fascinating.
 - Operating Systems: Of course, computers are special beings but at the core, one 
 realizes how simple a computer can be. With this, I'm taking my time to understand fully
-and build my own operating system. This is a preliminary step for me as the final goal is
+and build my own operating system. Also taking the Nand2Tetris course.
+This is a preliminary step for me as the final goal is
 to contribute to **Linux**.
 
 ---
