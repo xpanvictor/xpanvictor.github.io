@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-03T16:32:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xpanvictor</title><subtitle>I love to learn from the fields of STEM. Things I learn are usually fascinating and  I&apos;ll like to share &apos;em. Make sure to pick something new from my posts, criticize and  send feedbacks to my mail.</subtitle><entry><title type="html">Reviewing the Rust language</title><link href="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html" rel="alternate" type="text/html" title="Reviewing the Rust language" /><published>2023-08-03T11:13:59+01:00</published><updated>2023-08-03T11:13:59+01:00</updated><id>http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction</id><content type="html" xml:base="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html">&lt;p&gt;I read the rust book a while ago but couldn’t progress building amazing concepts with it due to work
+and school. I still love and admire the style and approach the language brings with it.&lt;br /&gt;
+This is a series documenting my journey going over the rust book and some projects I did.
+Below is the content list&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; class=&quot;active&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Rust is a systems programming language with key features and interestingly new concepts. It boasts
+new methods that achieve great feats unlike the tools we have before.
+While learning, I have an habit of documenting key points and snippets per chapter. The repository to which I’ll
+refer individual chapters to is &lt;a href=&quot;https://github.com/xpanvictor/rusty&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-rs highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="technology" /><category term="systems" /><category term="language" /><summary type="html">A series documenting key components of the rust programming language. I read the book a while ago but was busy with some other things, this is documenting a summary as I review</summary></entry></feed>
