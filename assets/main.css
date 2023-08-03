@@ -33,7 +33,7 @@ a:hover { color: #111; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
-.active {
+a.active {
   color: red !important;
   text-decoration: underline;
 }
