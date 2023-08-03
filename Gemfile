@@ -38,3 +38,5 @@ gem "webrick", "~> 1.8"
 gem "kramdown", "~> 2.3"
 
 gem "jekyll-seo-tag", "~> 2.8"
+
+gem 'jekyll-target-blank'
