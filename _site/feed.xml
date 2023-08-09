@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-03T18:34:03+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xpanvictor</title><subtitle>I love to learn from the fields of STEM. Things I learn are usually fascinating and  I&apos;ll like to share &apos;em. Make sure to pick something new from my posts, criticize and  send feedbacks to my mail.</subtitle><entry><title type="html">Reviewing the Rust language</title><link href="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html" rel="alternate" type="text/html" title="Reviewing the Rust language" /><published>2023-08-03T11:13:59+01:00</published><updated>2023-08-03T11:13:59+01:00</updated><id>http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction</id><content type="html" xml:base="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html">&lt;p&gt;I read the rust book a while ago but couldn’t progress building amazing concepts with it due to work
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-06T09:52:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xpanvictor</title><subtitle>I love to learn from the fields of STEM. Things I learn are usually fascinating and  I&apos;ll like to share &apos;em. Make sure to pick something new from my posts, criticize and  send feedbacks to my mail.</subtitle><entry><title type="html">How do flip flops work</title><link href="http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work.html" rel="alternate" type="text/html" title="How do flip flops work" /><published>2023-08-05T18:19:59+01:00</published><updated>2023-08-05T18:19:59+01:00</updated><id>http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work</id><content type="html" xml:base="http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Computers as complex as they may seem are very simple at the core. Basically performing calculations using 
+electrical signals. I won’t be going over that here but the point is everything done on a computer comes from the
+combination of chips. These chips take input(s) and return output(s). Example is the NOT gate which takes a signal
+and returns the inverted form. This is in form of binary code. Truth table of&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| in | out |   
+ ___  _____
+| 0  |  1  |   
+| 1  |  0  |   
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These chips are categorized largely into the logic with which they work. The &lt;strong&gt;Combinational&lt;/strong&gt; and the &lt;strong&gt;Sequential&lt;/strong&gt; logic. &lt;br /&gt;
+Combinational chips are the chips that basically perform an action on the input returning the result. They don’t care about sequence which
+I’m coming to. Examples are the and, not, nor, xor, mux gates, etc.&lt;/p&gt;
+
+&lt;p&gt;Sequential logic however involves the progression of time. Chips using this logic are also called time-dependent chips.
+These chips have to somehow factor in the concept of time into electronics. Of course, we don’t have to make this the regular time, instead
+we achieve this using a master clock that feeds all these sequential chips with current time. This is know as cycles. These cycles represent
+the progression of time. This doesn’t bring the &lt;em&gt;granularity&lt;/em&gt; of time but instead makes it that each cycle marks time shift and everything between
+is just constant. &lt;br /&gt;
+From this, we realize storage is just keeping a state till we want to change it. Meaning, keeping a state across different cycles until we want to 
+change it. Hence, we need chips that can keep record of time and return the state we set to it some cycles before.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-are-flip-flops&quot;&gt;So what are flip flops?&lt;/h2&gt;
+&lt;p&gt;From the previous introduction, we realize memory chips are just sequential chips that can keep a state stored till we change it.
+How do we achieve such functionalities in electronics. We can’t just put something and it remains there. Electrons don’t remain in a circuit, they move right?
+This is where we have to define what flip flops are. &lt;br /&gt;
+Flip flops are circuits that have 2 stable states and hold information. Hence, they are Bistable Multivibrators. Ooops, what are those, let’s go over them.&lt;/p&gt;
+
+&lt;h1 id=&quot;multivibrators-do-they-really-vibrate&quot;&gt;Multivibrators, do they really vibrate?&lt;/h1&gt;
+&lt;p&gt;…Pending&lt;/p&gt;
+
+&lt;h2 id=&quot;back-to-flip-flops&quot;&gt;Back to flip flops&lt;/h2&gt;
+&lt;p&gt;Such chip should have operation as:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;out(t+1) = in(t)&lt;/code&gt;    &lt;br /&gt;
+Hence the pins of such chip are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Of course the input pin, in&lt;/li&gt;
+  &lt;li&gt;The output pin, out&lt;/li&gt;
+  &lt;li&gt;The time feed pin, t&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="engineering" /><category term="electronics" /><summary type="html">Flip flops generally are fascinating elements. Memory chips are built from them, from the bits to registers. Let&apos;s explore what and how these chips work.</summary></entry><entry><title type="html">Reviewing the Rust language</title><link href="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html" rel="alternate" type="text/html" title="Reviewing the Rust language" /><published>2023-08-03T11:13:59+01:00</published><updated>2023-08-03T11:13:59+01:00</updated><id>http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction</id><content type="html" xml:base="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html">&lt;p&gt;I read the rust book a while ago but couldn’t progress building amazing concepts with it due to work
 and school. I still love and admire the style and approach the language brings with it.&lt;br /&gt;
 This is a series documenting my journey going over the rust book and some projects I did.
 Below is the content list&lt;/p&gt;
