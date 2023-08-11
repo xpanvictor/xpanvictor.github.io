@@ -40,13 +40,48 @@ This is where we have to define what flip flops are.
 Flip flops are circuits that have 2 stable states and hold information. Hence, they are Bistable Multivibrators. Ooops, what are those, let's go over them.
 
 # Multivibrators, do they really vibrate?
-...Pending
+Multivibrators are circuits that can maintain a simple two-state system. So basically, they can exist in two state. The stability of this state varies.
+Hence, the types of multivibrators:
+1. Astable multivibrators: These are multivibrators that don't have any stable state. The states change periodically.
+2. Monostable multivibrators: Also know as one shot. These have one state that is stable and another that isn't. A pulse can be sent to make it switch to the unstable state.  
+From there, it'll return to the stable state after a period of time. An application point is for a ciruit that triggers an action after a period of time from another event.
+3. Bistable multivibrators: These have two states that are stable. A pulse has to be sent to swith it's current state. An example is the flip flop. This is 
+because it can be made to flip from one state to the other. Another example is a latch. 
+
+*I still have to research on the inner workings of the multivibrators and their circuit connection.*
+
+With this, we have a circuit that can help us hold a state.
 
 ## Back to flip flops
+Hence, a flip flop is able to manage storage of a single bit using a circuit structure
 Such chip should have operation as:
 `out(t+1) = in(t)`      
 Hence the pins of such chip are:
-1. Of course the input pin, in
-2. The output pin, out
-3. The time feed pin, t
+1. Of course the input pin, `in`
+2. The pin used to change it's current state, `set`
+2. The output pin, `out`
+3. The time feed pin, `t`
+5. An optional [my pov] reset pin `reset`
+
+# How?   
+In the binary system which our classical computers operate in, the smallest form of data is a bit. It's a `0 or 1`. This can be engineered to an hardware with an
+agreed value of low voltage for 0 and high voltage for 1. Basically, we are feeding our bistable multivibrator with a low/high voltage and it keeps it.
+Using the pin structure;
+1. The chip receives an `HIGH` through the `set` pin indicating we want to set a new state.
+2. The value to be set is also sent to the `in` pin.
+3. Of course, this occurs in the current time cycle which is fed to the `t` pin.
+4. The chip can be queried and will always return the state that was set in the previous time cycle, until it's set again where it returns the new value in the next cycle.   
+```js
+out(t+1) = in(t) 
+// out state of next cycle is the in state of previous cycle.
+``` 
+With this procedure, the DFF can store a bit of data. What's the point of such device. Well, a giant file is just a combination of characters, a character is just a bunch of
+agreed codes of integers, e.g. `65 for A`. An integer itself is just a combination of BITS, i.e Binary digITS. 
+
+Combine bits into registers, e.g. a 16 bits register. Combine registers into RAMs and you're already building a memory device. 
+
+In conclusion, the terms hardware and software are intertwined. Computers are not so complex, they're beautiful devices we've engineered and at the core operate very simply.
+I'll be writing later explaining what the time cycle is, how it affects a computer and how it gloriously defines the cpu's clock speed we check when we want to make a purchase
+of a new computer.
+
 
