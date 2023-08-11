@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-06T09:52:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xpanvictor</title><subtitle>I love to learn from the fields of STEM. Things I learn are usually fascinating and  I&apos;ll like to share &apos;em. Make sure to pick something new from my posts, criticize and  send feedbacks to my mail.</subtitle><entry><title type="html">How do flip flops work</title><link href="http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work.html" rel="alternate" type="text/html" title="How do flip flops work" /><published>2023-08-05T18:19:59+01:00</published><updated>2023-08-05T18:19:59+01:00</updated><id>http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work</id><content type="html" xml:base="http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-11T20:39:22+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xpanvictor</title><subtitle>I love to learn from the fields of STEM. Things I learn are usually fascinating and  I&apos;ll like to share &apos;em. Make sure to pick something new from my posts, criticize and  send feedbacks to my mail.</subtitle><entry><title type="html">How do flip flops work</title><link href="http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work.html" rel="alternate" type="text/html" title="How do flip flops work" /><published>2023-08-05T18:19:59+01:00</published><updated>2023-08-05T18:19:59+01:00</updated><id>http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work</id><content type="html" xml:base="http://localhost:4000/engineering/electronics/2023/08/05/how-flip-flops-work.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Computers as complex as they may seem are very simple at the core. Basically performing calculations using 
 electrical signals. I won’t be going over that here but the point is everything done on a computer comes from the
 combination of chips. These chips take input(s) and return output(s). Example is the NOT gate which takes a signal
@@ -28,17 +28,55 @@ This is where we have to define what flip flops are. &lt;br /&gt;
 Flip flops are circuits that have 2 stable states and hold information. Hence, they are Bistable Multivibrators. Ooops, what are those, let’s go over them.&lt;/p&gt;
 
 &lt;h1 id=&quot;multivibrators-do-they-really-vibrate&quot;&gt;Multivibrators, do they really vibrate?&lt;/h1&gt;
-&lt;p&gt;…Pending&lt;/p&gt;
+&lt;p&gt;Multivibrators are circuits that can maintain a simple two-state system. So basically, they can exist in two state. The stability of this state varies.
+Hence, the types of multivibrators:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Astable multivibrators: These are multivibrators that don’t have any stable state. The states change periodically.&lt;/li&gt;
+  &lt;li&gt;Monostable multivibrators: Also know as one shot. These have one state that is stable and another that isn’t. A pulse can be sent to make it switch to the unstable state.&lt;br /&gt;
+From there, it’ll return to the stable state after a period of time. An application point is for a ciruit that triggers an action after a period of time from another event.&lt;/li&gt;
+  &lt;li&gt;Bistable multivibrators: These have two states that are stable. A pulse has to be sent to swith it’s current state. An example is the flip flop. This is 
+because it can be made to flip from one state to the other. Another example is a latch.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;I still have to research on the inner workings of the multivibrators and their circuit connection.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;With this, we have a circuit that can help us hold a state.&lt;/p&gt;
 
 &lt;h2 id=&quot;back-to-flip-flops&quot;&gt;Back to flip flops&lt;/h2&gt;
-&lt;p&gt;Such chip should have operation as:
+&lt;p&gt;Hence, a flip flop is able to manage storage of a single bit using a circuit structure
+Such chip should have operation as:
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;out(t+1) = in(t)&lt;/code&gt;    &lt;br /&gt;
 Hence the pins of such chip are:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Of course the input pin, in&lt;/li&gt;
-  &lt;li&gt;The output pin, out&lt;/li&gt;
-  &lt;li&gt;The time feed pin, t&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="engineering" /><category term="electronics" /><summary type="html">Flip flops generally are fascinating elements. Memory chips are built from them, from the bits to registers. Let&apos;s explore what and how these chips work.</summary></entry><entry><title type="html">Reviewing the Rust language</title><link href="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html" rel="alternate" type="text/html" title="Reviewing the Rust language" /><published>2023-08-03T11:13:59+01:00</published><updated>2023-08-03T11:13:59+01:00</updated><id>http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction</id><content type="html" xml:base="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html">&lt;p&gt;I read the rust book a while ago but couldn’t progress building amazing concepts with it due to work
+  &lt;li&gt;Of course the input pin, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;in&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The pin used to change it’s current state, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;set&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The output pin, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;out&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The time feed pin, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;t&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;An optional [my pov] reset pin &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reset&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;how&quot;&gt;How?&lt;/h1&gt;
+&lt;p&gt;In the binary system which our classical computers operate in, the smallest form of data is a bit. It’s a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0 or 1&lt;/code&gt;. This can be engineered to an hardware with an
+agreed value of low voltage for 0 and high voltage for 1. Basically, we are feeding our bistable multivibrator with a low/high voltage and it keeps it.
+Using the pin structure;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The chip receives an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HIGH&lt;/code&gt; through the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;set&lt;/code&gt; pin indicating we want to set a new state.&lt;/li&gt;
+  &lt;li&gt;The value to be set is also sent to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;in&lt;/code&gt; pin.&lt;/li&gt;
+  &lt;li&gt;Of course, this occurs in the current time cycle which is fed to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;t&lt;/code&gt; pin.&lt;/li&gt;
+  &lt;li&gt;The chip can be queried and will always return the state that was set in the previous time cycle, until it’s set again where it returns the new value in the next cycle.
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;c1&quot;&gt;// out state of next cycle is the in state of previous cycle.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;With this procedure, the DFF can store a bit of data. What’s the point of such device. Well, a giant file is just a combination of characters, a character is just a bunch of
+agreed codes of integers, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;65 for A&lt;/code&gt;. An integer itself is just a combination of BITS, i.e Binary digITS.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Combine bits into registers, e.g. a 16 bits register. Combine registers into RAMs and you’re already building a memory device.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the terms hardware and software are intertwined. Computers are not so complex, they’re beautiful devices we’ve engineered and at the core operate very simply.
+I’ll be writing later explaining what the time cycle is, how it affects a computer and how it gloriously defines the cpu’s clock speed we check when we want to make a purchase
+of a new computer.&lt;/p&gt;</content><author><name></name></author><category term="engineering" /><category term="electronics" /><summary type="html">Flip flops generally are fascinating elements. Memory chips are built from them, from the bits to registers. Let&apos;s explore what and how these chips work.</summary></entry><entry><title type="html">Reviewing the Rust language</title><link href="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html" rel="alternate" type="text/html" title="Reviewing the Rust language" /><published>2023-08-03T11:13:59+01:00</published><updated>2023-08-03T11:13:59+01:00</updated><id>http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction</id><content type="html" xml:base="http://localhost:4000/technology/systems/language/2023/08/03/rust-introduction.html">&lt;p&gt;I read the rust book a while ago but couldn’t progress building amazing concepts with it due to work
 and school. I still love and admire the style and approach the language brings with it.&lt;br /&gt;
 This is a series documenting my journey going over the rust book and some projects I did.
 Below is the content list&lt;/p&gt;
