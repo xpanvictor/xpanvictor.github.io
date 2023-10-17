@@ -1,6 +1,6 @@
 ---
 layout: post
-use_math: true
+use_math: false
 title:  "The basics of the operating system"
 date:   2023-09-07 08:06:59 +0100
 categories: technology systems os

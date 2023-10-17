@@ -1,6 +1,6 @@
 ---
 layout: post
-use_math: true
+use_math: false
 title:  "Limited direct execution: How does the OS run programs"
 date:   2023-10-17 21:06:59 +0100
 categories: technology systems os
@@ -26,7 +26,7 @@ Short answer: the hardware is involved :)
 # Wait, what are processes really?
 Basically, it's a running program. When we run a program through several means like double clicking an executable or running it from the terminal
 or those who can skim programs using their minds, we create a process on the computer. A process stores the program instructions (the binary code) in memory,
-initiates a program counter \( this tells the computer the current instruction to execute on the computer \), initiates a memory stack and kernel stack \(basically registers 
+initiates a program counter &#40;this tells the computer the current instruction to execute on the computer&#41; , initiates a memory stack and kernel stack \(basically registers 
 that store data\) then line by line runs the instruction incrementing and jumping across the instructions as directed by the program. 
 
 However, the operating system is in charge of creating the processes as well. The OS creates an entry called the Process Control Block (PCB) or 
