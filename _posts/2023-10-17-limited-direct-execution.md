@@ -80,7 +80,7 @@ The approach to running a program earlier was the cooperative approach where the
 was used in the Macintosh operating system, M11. However, the program can maliciously decide not to or enter an infinite loop from bad code and prevent the OS. With the
 uncooperative approach, the timer interrupt is used to return control to the OS at intervals at which it can decide to continue the process or do other things.
 
-This decision of either continuing or switching to another process is done by the **Scheduler.** To perform this switch, a ************context switch************ is done. This basically is storing the currently running process’ registers, PC and kernel stack pointer and restoring the registers and PC of the new process to run. Hence, **switching** from the *context* of the current process to the ***********context*********** of the about to run one. Afterwards, return-from-trap is executed and the new process becomes the currently running process.
+This decision of either continuing or switching to another process is done by the **Scheduler.** To perform this switch, a **context switch** is done. This basically is storing the currently running process’ registers, PC and kernel stack pointer and restoring the registers and PC of the new process to run. Hence, **switching** from the *context* of the current process to the **context** of the about to run one. Afterwards, return-from-trap is executed and the new process becomes the currently running process.
 
 There are two register stores that occur in this context switch. 
 
