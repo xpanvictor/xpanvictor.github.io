@@ -4,11 +4,8 @@ use_math: false
 title:  "Amortization, Preemptive scheduling and how context switching works"
 date:   2023-11-25 21:06:59 +0100
 categories: technology systems os
-excerpt: "The beauty of the operating system is that it manages the computer almost perfectly, how it runs
-
-multiple events together, controls the operating of individual components is based on these little concepts"
+excerpt: "The beauty of the operating system is that it manages the computer almost perfectly, how it runs multiple events together, controls the operating of individual components is based on these little concepts"
 ---
-
 
 
 Considered what it takes for an operating system to function and control the workings of a computer. From playing music while reading a nice
