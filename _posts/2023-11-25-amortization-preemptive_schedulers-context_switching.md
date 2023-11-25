@@ -2,7 +2,7 @@
 layout: post
 use_math: false
 title:  "Amortization, Preemptive scheduling and how context switching works"
-date:   2023-11-25 21:06:59 +0100
+date:   2023-11-24 21:06:59 +0100
 categories: technology systems os
 excerpt: "The beauty of the operating system is that it manages the computer almost perfectly, how it runs multiple events together, controls the operating of individual components is based on these little concepts"
 ---
