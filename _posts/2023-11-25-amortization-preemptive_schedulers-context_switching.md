@@ -9,10 +9,8 @@ excerpt: "The beauty of the operating system is that it manages the computer alm
 
 
 Considered what it takes for an operating system to function and control the workings of a computer. From playing music while reading a nice
-
 pdf at the same time, asking it to fetch a file on some row in the hard disk while downloading another file using a new browser or file downloader which
-
-runs some other operations. What about the running a VM, using a virtual OS on your own OS. How does it manage something that manages another manager. 
+runs some other operations. What about running a VM, using a virtual OS on your own OS. How does it manage something that manages another manager. 
 
 To be honest, the workings of the operating system can be a bit daunting at times but all we can do is shout at windows for not being a good door.
 
