@@ -1,7 +1,7 @@
 ---
 layout: post
 use_math: false
-title:  "Implementing a bittorrent client with rust"
+title:  "Implementing a bittorrent client with rust pt 1"
 date:   2024-01-20 12:06:59 +0100
 categories: technology software
 excerpt: "While thinking bout common necessities, I remembered I once fantasized building
@@ -70,4 +70,33 @@ Hence, bencode is a good way of storing complex data structures in a linear memo
       d3:bar4:spam3:fooi45ee // decoded to {"bar": "spam", "foo": 45}
    ```
    
-The algorithm used will be explained shortly after my exams :)
+## Algorithm for parsing bencode
+My guide for parsing the bencode is actually an advantage from learning more on
+data structures. I've always known what recursions are but until recently, I had a
+view on how things work deeply and how the `activation record` and the `stack` works.
+With this, I have a really better and interesting visualization of recursion in my head.
+My notes on this recursion are [here](https://xpan.notion.site/Recursion-1a528a4634ef4877b8f5a512afe1bb54).
+
+How this works recursively is
+```Bash
+func process_bencode:
+   c = consume a character
+   match type of c and with type using spec summary above:
+      type int | byte => consume int | byte
+      type list => {
+         let base_vec = some form of vector
+         loop while list hasn't ended (use spec)
+            base_vec appends process_bencode() // note this recursion allows Nested lists
+         return base_vec
+      }
+      type dict => {
+         let base_hash_map = some form of hash_map
+         loop while dict hasn't ended
+            let key = process_bencode() // recursion from here
+            assert key is string
+            let value = process_bencode() // for any form of 
+            base_hash_map inserts (key, value)
+         return base_hash_map
+      }
+```
+This is basically the flow I'm using with parsing bencode.
