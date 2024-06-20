@@ -100,3 +100,7 @@ func process_bencode:
       }
 ```
 This is basically the flow I'm using with parsing bencode.
+
+Next will be going on figuring out the structuring and the http section, sweet.
+For this, planning to implement a concurrent solution or building on hyper. How this
+goes, will be discussed in their respective parts. 
