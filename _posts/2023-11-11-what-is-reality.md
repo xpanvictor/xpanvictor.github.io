@@ -2,7 +2,7 @@
 layout: post
 use_math: true
 title: "What is reality? A question"
-date:   2023-11-11 11:13:59 +0100
+date:   2023-11-11 10:13:59 +0100
 categories: science nature
 excerpt: "A philosphic view to the reality. From consciousness to physics"
 ---
