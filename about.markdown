@@ -4,7 +4,7 @@ title: About Xpan
 permalink: /about/
 ---
 
-Welcome to [xpanvictor's](http://portfolio-xpanvictor.vercel.app/) blog site.
+Welcome to [xpanvictor's](https://www.xpan9.tech) blog site.
 
 ## Who is xpan
 My name is Oladunjoye Victor, called xpan. I'm a full stack web developer using the 
