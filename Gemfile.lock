@@ -265,7 +265,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x86_64-linux-gnu
+  x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 228)
