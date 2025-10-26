@@ -5,7 +5,9 @@ title: Human print
 date: 2025-10-12 12:22:59 +0100
 categories: ai economics lifestyle
 excerpt: You're a story to another
+status: wip
 ---
+[wip]
 Life, a series of events enveloped in the sequence of time with characters interacting and making individual stories with each other. It's obvious why we like games, movies and others. It's a way to see beyond just individual stories and see how they cascade through a series in an aimed endgame timeline. 
 
 Unlike reality however, the stories don't end. There's no direct hero and we're all just stories to each other. To some, I'm good, to some evil and to others just a neutral story. We're the protagonist in our own stories. Such a bummer, not so interesting right?
