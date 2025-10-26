@@ -4,7 +4,7 @@ Topics to write on
 - Building a basic ALU
 - So how does the CPU work
 - Can we actually digitalize our brain
-- Latches and now the memroy elements (opinionated)
+- Latches and now the memory elements (opinionated)
 - Reviews of _
 
 
@@ -14,6 +14,7 @@ Sections
     - os
   - web
   - software
+  - ai
 - Engineering
   - electronics
 - science
