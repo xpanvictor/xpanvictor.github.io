@@ -7,7 +7,8 @@ categories: technology blockchain networking
 excerpt: Blockchain gives us freedom, light clients are necessary to own it
 status: wip
 ---
-[Still draft]
+[Still draft] 
+
 History has done justice to how the blockchain brought about financial freedom to the people. Can we get fair payment, can we have a coordination system without trust, settlement? We've seen the scalability trilemma in play and how we have a lot till the eventual end goal.   \
 Light clients are necessary to have a fully decentralized and free system and this is properly illustrated [here](https://ethereum.org/developers/docs/nodes-and-clients/light-clients/).   \
 This in turn needs trustless verification and the [portal network](https://inevitableeth.com/ethereum/light-clients). This is an independent network of computers (which are of all forms from a tiny microcontroller in your watch to your high tech super computers) that serve multiple interdependent functionalities and data. Light clients will query the portal network for proofs, mempools in order to participate in verification. \
