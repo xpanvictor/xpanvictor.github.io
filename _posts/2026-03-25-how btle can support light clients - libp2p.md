@@ -69,7 +69,7 @@ sequenceDiagram
 
 For the discovery layer, an implementation was made to experiment with this idea. The demo video below shows the flow between a macbook pro(left) and a mac mini(right) in proximity (view via ssh on mini). It demonstrate the way the two nodes discover each other by order of proximity, connect and exchange their peer ids. 
 ![[discovery-peer-id-exchange.mov]]
-
+The implementation for this can be found [https://github.com/xpanvictor/btle-libp2p-research/tree/main/ble-network-upgrade](https://github.com/xpanvictor/btle-libp2p-research/tree/main/ble-network-upgrade).
 
 [Also discuss how btle is the only bridge between ios and android as developed and discovered by Berty Technologies.]\
 Berty runs IPFS successfully on mobile devices to decentralize data storage and routing. 
