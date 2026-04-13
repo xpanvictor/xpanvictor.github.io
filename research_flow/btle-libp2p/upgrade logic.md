@@ -1,3 +1,4 @@
+### A proximity based rendezvous mechanism
 ## BTLE layer
 A rough spec will suffice here. The idea is to give a basic trait structure that demonstrate the capabilities of the btle transport mostly as a unification discovery layer. The structure can be structured as
 ```
